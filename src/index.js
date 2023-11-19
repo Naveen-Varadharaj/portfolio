@@ -36,7 +36,7 @@ root.render(
             </header>
             
            <Routes >
-                <Route exact path='/Home' element={< Home />}></Route> 
+                <Route exact path='*' element={< Home />}></Route> 
                 <Route exact path='/pages/About' element={<About />}></Route>
                 <Route exact path='/pages/Education' element={<Education />}></Route>
                 <Route exact path='/pages/Projects' element={<Resume />}></Route>
