@@ -17,7 +17,7 @@ root.render(
             <nav className="mx-auto my-auto  w-full">
             <ul className="flex justify-around">
               <li className=' text-xl font-semibold text-white'>
-                <Link to='/' className="bg-gradient-to-r from-red-600 to-yellow-600 rounded-lg py-1 px-4 focus:ring-4 focus:ring-white ">Home</Link>
+                <Link to='/Home' className="bg-gradient-to-r from-red-600 to-yellow-600 rounded-lg py-1 px-4 focus:ring-4 focus:ring-white ">Home</Link>
               </li>
               
               <li className=' text-xl font-semibold text-white'>
@@ -36,7 +36,7 @@ root.render(
             </header>
             
            <Routes >
-                <Route exact path='/' element={< Home />}></Route> 
+                <Route exact path='/Home' element={< Home />}></Route> 
                 <Route exact path='/pages/About' element={<About />}></Route>
                 <Route exact path='/pages/Education' element={<Education />}></Route>
                 <Route exact path='/pages/Projects' element={<Resume />}></Route>
